@@ -1,0 +1,605 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    margin: 0px;
+    padding: 15px;
+    height: 30px;
+    background-image:url('../images/hero-slider-2.jpg');
+}
+.logo{
+    margin-top:-25px;
+    margin-left: 20px;
+}
+.nav-mull ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3px;
+}
+.nav-mull ul li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.but button{
+    background-color: #000;
+    color: #fff;
+    width: 130px;
+    height:32px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EDEDED;
+    height: 480px;
+}
+.title{
+    display: block;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 140px;
+    width: 590px;
+    height: 425px;
+    
+}
+
+.header-img img{
+    width: 590px !important;
+    height: 425px;
+    margin: auto;
+    margin-right: 90px;
+}
+.content-title{
+    display: block;
+    text-align: center;
+    border: 1px solid transparent;
+    width: 500px;
+    margin-left: 33%;
+}
+.content-img img{
+    width:488px ;
+    height: 331.23px;
+    border-radius: 30px 0px;
+}
+.Brief{
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-around;
+    width: 1150px;
+    margin-left: 13%;
+    padding: 10px;
+}
+.Brief-paragraph{
+    border: 1px solid transparent;
+    display: block;
+    text-align: center;
+}
+.Brief-paragraph h3{
+    border: 1px solid transparent;
+    width: 275px;
+    margin-left: 10%;
+    margin-top: 90px;
+}
+.Brief-paragraph p{
+    border: 1px solid transparent;
+    width: 331px;
+}
+.biography{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin-left: 12%;
+    height: 475px;
+}
+.Napda{
+    border: 1px solid transparent;
+    width: 370px;
+}
+.one{
+    border: 2px solid transparent;
+    width: 350px;
+    margin-top: 45px;
+    margin-left: 7px;
+    display: block;
+    text-align: center;
+    height: 187px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.one img{
+    width: 64px;
+    height: 64px;
+    margin-top: 5px;
+    border-radius: 38px;
+}
+.content-our{
+    background-color: #EDEDED;
+    height: 750px;
+    border: 1px solid transparent;
+    margin-top: 20px;
+}
+.slider-paragraph{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: #EDEDED;
+    margin: auto;
+}
+.owl-nav{
+    position: absolute;
+    margin-top: -224px;
+}
+.owl-theme .owl-nav {
+    margin-top: -275px !important;
+}
+.owl-next{
+    margin-left: 1476px !important;
+    border: 1px solid #000 !important;
+    width: 18px;
+    background-color: #000 !important;
+    color: #fff !important;
+}
+.owl-dots{
+    position: absolute;
+    margin-left: 46%;
+    margin-top: -30px;
+}
+.owl-prev {
+    border: 1px solid #000 !important;
+    margin-right: 1454px !important;
+    width: 18px;
+    background-color: #000 !important;
+    color: #fff !important;
+}
+.slider-paragraph ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border: 1px solid transparent;
+    width: 117px;
+    margin-left: 50px;
+    height: 30px;
+    margin-top: 40px;
+}
+.paragraph-mull{
+    display: block;
+    text-align: center;
+}
+.slider-paragraph ul li{
+    content: "\f005";
+    color: #000;
+    font-family: 'FontAwesome';
+    height: 10px;
+}
+.paragraph-bottom ul li{
+    content: "\f007";
+    color: #000;
+    font-family: 'FontAwesome';
+    height: 15px;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+.paragraph-bottom ul{
+    border: 1px solid #000;
+    width: 10px;
+    height: 48px;
+    margin-left: 122px;
+    border-radius: 66px;
+    background-color: #fff;
+}
+.Slider-top{
+    border: 1px solid transparent;
+    width: 700px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+.Slider-top .owl-nav{
+    width: 723px;
+    margin-left: -15px;
+    margin-top: -165px !important;
+}
+.Slider-top .owl-next {
+    margin-left: 703px !important;
+}
+.Slider-top .owl-dots{
+    margin-top: 10px !important;
+}
+
+.content-us{
+    background-color: #EDEDED ;
+}
+.Information{
+    border: 1px solid transparent;
+    width: 50%;
+    margin-left: 25%;
+    height: 400px;
+}
+.Boxes{
+    margin: 10px;
+}
+.name {
+    width: 340px;
+    height: 40px;
+    margin-left: 7px;
+    margin-top: 10px;
+
+}
+.email{
+    width: 340px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.Subject{
+    width: 712px;
+    height: 40px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.message{
+    width: 712px;
+    height: 175px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.sub{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.submit{
+    background-color: #E0E1E1;
+    color: #000;
+    width: 120px;
+    height: 35px;
+    border-radius: 15px;
+    margin-left: 10px;
+    border-color: #E0E1E1;
+}
+.submit:hover{
+    background-color: #000;
+    color: #fff;
+}
+.submit:visited{
+    background-color: #000;
+    color: #fff;
+}
+.footer{
+    border: 1px solid transparent;
+    width: 90%;
+    margin-left: 74px;
+    height: 160px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.footer-nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.footer-nav ul li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.font-awesome ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+.font-awesome ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.globe{
+    content: "\f0ac";
+    color: #000;
+    font-family: 'FontAwesome';
+    height: 10px;
+}
+.instagram{
+    content: "\f16d";
+    color: #000;
+    font-family: 'FontAwesome';
+    height: 10px;
+}
+.meh{
+    content: "\f001";
+    color: #000;
+    font-family: 'FontAwesome';
+    height: 10px;
+}
+.Copyright{
+    font-size: 15px;
+    margin-left: 40%;
+}
+.footer hr{
+    margin-top: 78px;
+}
+.content-title h1{
+    margin-top: 70px;
+}
+#accordion{
+    width: 50%;
+    margin-left: 25%;
+}
+.content-bottom{
+    height: 550px;
+}
+.owl-nav {
+    display: block !important;
+}
+.paragraph-bottom img{
+    width: 64px !important;
+    height: 64px;
+    margin-top: 5px;
+    border-radius: 38px;
+    margin-left: 115px;
+}
+#menubut{
+    display: none;
+    width: 20px;
+}
+
+
+/* تنسيقات جوال*/
+@media screen and (max-width:768px){
+    .logo{
+        margin-left: -11px;
+        font-size: 12px;
+        margin-top: -12px;
+    }
+    .nav{
+        width: 342px;
+        display: flex;
+}
+#menubut{
+    display: block;
+    width: 37px;
+    height: 41px;
+    margin-top: -3px;
+    margin-right: 0px;
+    z-index:2 ;
+}
+#siednav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right:-250px;
+    top: 0;
+    background-color: #EDEDED;
+    z-index: 2;
+
+}
+.but{
+    display: block;
+}
+.nav-mull ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 70px;
+    margin-left: -20px;
+}
+.nav-mull ul li{
+    margin-top: 20px;
+}
+
+.title{
+    height: 225px;
+    margin-left: 20px;
+    width: 164px;
+}
+
+#menubut{
+    display: block;
+}
+.header-top{
+    width: 145px;
+}
+.header-img img{
+    width: 259px !important;
+    height: 479px;
+}
+.content-title{
+    border: 1px solid transparent;
+    width: 387px;
+    margin-left: -7px;
+}
+.Brief{
+    border: 1px solid transparent;
+    margin-left: -8px;
+    width: 367px;
+}
+.content-img img{
+    width: 142px;
+    height: 200px;
+    margin-top: 83px;
+    border-radius: 0px;
+}
+.Brief-paragraph{
+    width: 117px;
+}
+.Brief-paragraph h3{
+    width: 125px;
+}
+.Brief-paragraph p{
+    width: 135px;
+}
+.biography{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 1432px;
+    margin-left: 1px;
+    width: 303px;
+}
+.content-our{
+    height: 1656px;
+}
+.Slider-top{
+    width: 323px;
+    margin-left: 15px;
+}
+.content-bottom{
+    height: 631px;
+}
+#accordion{
+    width: 388px;
+    margin-left: -7px;
+}
+#accordion p{
+    width: 347px;
+    height: 113px;
+
+}
+.content-us{
+    height: 623px;
+}
+.Boxes{
+    width: 385px;
+    margin-left: -97px;
+}
+.name{
+    margin-left: 17px;
+}
+.email{
+    margin-left: 17px;
+}
+.Subject{
+    width: 341px;
+    margin-left: 17px;
+}
+.message{
+    width: 341px;
+    margin-left: 17px;
+}
+.footer{
+    margin-left: -8px;
+    width: 390px;
+    height: 240px;
+}
+.footer hr{
+    margin-top: 20px;
+}
+.footer-top{
+    display: grid;
+    grid-auto-columns: 1fr;
+    width: 388px;
+    margin-top: 5px;
+}
+.footer-top div h1{
+    width: 98px;
+    margin-left: 157px;
+}
+#footer-nav{
+    width: 387px;
+}
+.footer-nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.Copyright{
+    margin-left: 18%;
+    margin-top: 5px;
+    height: 15px;
+}
+.owl-nav{
+    position: relative;
+}
+.owl-next{
+    margin-left: 337px !important;
+    margin-top: 0px;
+}
+.owl-dots {
+    position: relative;
+    margin-left: -6%;
+    margin-top: 198px;
+}
+.Slider-top .owl-next {
+    margin-left: -23px !important;
+}
+.Slider-top .owl-dots {
+    margin-top: 113px !important;
+}
+}
+/*تنسيقات ايباد*/
+@media screen and (min-width: 820px) and (max-width:1180px) {
+    .nav{
+        width: 843px;
+    }
+    .title{
+        margin-left: 152px;
+        height: 188px;
+        width: 253px;
+        display: block;
+        text-align: center;
+    }
+    .header-img{
+        margin-left: 87px;
+    }
+    .header-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .owl-next {
+        margin-left: 187px !important
+    }
+    .content-title{
+    margin-left: 185px;
+    }
+    .Brief{
+    width: 50px;
+    margin-left: 392px;
+}
+.content-our{
+    height: 940px;
+    width: 878px;
+}
+.biography{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 65px;
+}
+.Slider-top{
+    margin-left: 85px;
+}
+#accordion{
+    width: 94%;
+    margin-left: 60px;
+}
+.content-us{
+    width: 100%;
+    margin-left: 24px;
+}
+.Information{
+    width: 100%;
+    margin-left: 26px;
+}
+.footer-top{
+    margin-left: -50px;
+}
+.Copyright{
+    margin-left: 30%;
+}
+.owl-carousel.slider-one.owl-theme.owl-loaded.owl-drag{
+    margin-left: 12px;
+}
+.owl-prev{
+    margin-right: 1463px !important;
+}
+}
+    
